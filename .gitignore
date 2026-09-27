@@ -1,0 +1,11 @@
+.reference/
+.build/
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+*.suo
+__pycache__/
+dist/

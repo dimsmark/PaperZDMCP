@@ -1,0 +1,22 @@
+{
+  "FileVersion": 3,
+  "Version": 3,
+  "VersionName": "0.2.1",
+  "FriendlyName": "PaperZD MCP",
+  "Description": "PaperZD asset authoring tools for Unreal Engine 5.8's native MCP server.",
+  "Category": "Editor",
+  "CreatedBy": "PaperZD MCP contributors",
+  "CanContainContent": false,
+  "EditorOnly": true,
+  "IsBetaVersion": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    { "Name": "PaperZDMCP", "Type": "Editor", "LoadingPhase": "PostEngineInit" }
+  ],
+  "Plugins": [
+    { "Name": "PaperZD", "Enabled": true },
+    { "Name": "Paper2D", "Enabled": true },
+    { "Name": "ToolsetRegistry", "Enabled": true },
+    { "Name": "ModelContextProtocol", "Enabled": true }
+  ]
+}
